@@ -1,0 +1,7 @@
+Data Cleaning Log
+------------------
+1. Filled missing numeric values with median.
+2. Filled missing categorical values with mode.
+3. Standardized date/time and category columns.
+4. Removed outliers using IQR method.
+   Total outlier rows removed: 372184

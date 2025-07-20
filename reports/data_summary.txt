@@ -1,0 +1,51 @@
+Data shape: (1017209, 9)
+
+Column types:
+Store             int64
+DayOfWeek         int64
+Date             object
+Sales             int64
+Customers         int64
+Open              int64
+Promo             int64
+StateHoliday     object
+SchoolHoliday     int64
+dtype: object
+
+Missing values:
+Store            0
+DayOfWeek        0
+Date             0
+Sales            0
+Customers        0
+Open             0
+Promo            0
+StateHoliday     0
+SchoolHoliday    0
+dtype: int64
+
+Unique values:
+Store             1115
+DayOfWeek            7
+Date               942
+Sales            21734
+Customers         4086
+Open                 2
+Promo                2
+StateHoliday         4
+SchoolHoliday        2
+dtype: int64
+
+Summary stats:
+               Store     DayOfWeek        Date         Sales     Customers          Open         Promo StateHoliday  SchoolHoliday
+count   1.017209e+06  1.017209e+06     1017209  1.017209e+06  1.017209e+06  1.017209e+06  1.017209e+06      1017209   1.017209e+06
+unique           NaN           NaN         942           NaN           NaN           NaN           NaN            4            NaN
+top              NaN           NaN  2013-01-02           NaN           NaN           NaN           NaN            0            NaN
+freq             NaN           NaN        1115           NaN           NaN           NaN           NaN       986159            NaN
+mean    5.584297e+02  3.998341e+00         NaN  5.773819e+03  6.331459e+02  8.301067e-01  3.815145e-01          NaN   1.786467e-01
+std     3.219087e+02  1.997391e+00         NaN  3.849926e+03  4.644117e+02  3.755392e-01  4.857586e-01          NaN   3.830564e-01
+min     1.000000e+00  1.000000e+00         NaN  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00          NaN   0.000000e+00
+25%     2.800000e+02  2.000000e+00         NaN  3.727000e+03  4.050000e+02  1.000000e+00  0.000000e+00          NaN   0.000000e+00
+50%     5.580000e+02  4.000000e+00         NaN  5.744000e+03  6.090000e+02  1.000000e+00  0.000000e+00          NaN   0.000000e+00
+75%     8.380000e+02  6.000000e+00         NaN  7.856000e+03  8.370000e+02  1.000000e+00  1.000000e+00          NaN   0.000000e+00
+max     1.115000e+03  7.000000e+00         NaN  4.155100e+04  7.388000e+03  1.000000e+00  1.000000e+00          NaN   1.000000e+00
